@@ -12,7 +12,7 @@ An enterprise-grade, fully containerized Retrieval-Augmented Generation (RAG) pi
 
 * **Advanced RAG Pipeline:** Contextualizes LLM responses by mathematically matching user queries to document chunks stored in a pgvector database.
 * **Intelligent Query Expansion (AI Router):** Utilizes a "Middleman AI" to dynamically translate abstract or indirect user queries into optimized vector-search parameters, drastically improving retrieval accuracy.
-* **Asynchronous Ingestion Engine:** Implements non-blocking polling and `@EnableScheduling` watchdogs to process heavy PDF uploads (300+ pages) without starving database connections or freezing the UI.
+* **Asynchronous Ingestion Engine:** Implements non-blocking polling and `@EnableScheduling` watchdogs to process heavy PDF uploads without starving database connections or freezing the UI.
 * **Token-Optimized LLM Integration:** Communicates with the Google Gemini API, featuring robust error handling, token limit management (up to 2048 output tokens), and dynamic prompt engineering.
 * **Fully Containerized:** One-click local deployment using Docker Compose, orchestrating the React frontend, Spring Boot backend, and pgvector database across an isolated network.
 
