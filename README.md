@@ -41,8 +41,8 @@ An enterprise-grade, fully containerized Retrieval-Augmented Generation (RAG) pi
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/](https://github.com/)[Your-Username]/[Your-Repo-Name].git
-   cd [Your-Repo-Name]
+   git clone [https://github.com/KarthikPolisetti/Spring-Vector-AI]
+   cd [SpringVectorAi]
 
 
   Build the Java Backend:
