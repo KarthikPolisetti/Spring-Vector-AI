@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 import java.util.Map;
 
-
+//Here this controller is responsible for the requests coming from the /api/debug
 @RestController
 @RequestMapping("/api/debug")
 public class DebugController {
