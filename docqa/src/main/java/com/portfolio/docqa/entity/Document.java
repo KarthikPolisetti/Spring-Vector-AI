@@ -30,6 +30,7 @@ public class Document {
     @Column(length = 50)
     private  String status="PROCESSING";
 
+
     @Column(name="uploaded_at", insertable = false,updatable = false)
     private LocalDateTime uploadedAt;
 }
