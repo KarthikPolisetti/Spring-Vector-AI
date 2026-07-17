@@ -12,4 +12,7 @@ COPY target/*.jar app.jar
 EXPOSE 8080
 
 # Run the jar file
+
+
+#To Run the Docker File it needs a Entry Point and here is how to decalre a entry point 
 ENTRYPOINT ["java", "-jar", "app.jar"]
