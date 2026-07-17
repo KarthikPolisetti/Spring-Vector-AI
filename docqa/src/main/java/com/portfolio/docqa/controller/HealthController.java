@@ -13,4 +13,5 @@ public class HealthController {
     public Map<String,String> healthCheck(){
         return Map.of("status","up");
     }
+    
 }
