@@ -1,6 +1,9 @@
 package com.portfolio.docqa.service;
 
 
+
+//This File is responsible  for the chunking of data but remember this chunking concept is used for this project and file and it is not universal sweetspot every time!
+
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
